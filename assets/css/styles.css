@@ -1,0 +1,21 @@
+.c-container{
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .video-container {
+    flex: 1;
+  
+  }
+  
+  .v-c{
+    width: 100%;
+  }
+  
+  @media only screen and (max-width:765px) {
+    .c-container{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
